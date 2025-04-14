@@ -47,7 +47,7 @@ function About() {
          animate={{opacity:1,y:0}}
          transition={{duration:0.5}}
         className='h-1/2 w-3/4 mt-[7rem]  mx-auto'>
-        <img className='rounded-md shadow-xl shadow-gray-400 dark:shadow-gray-600 dark:shadow-lg ' src={aboutMePicture} alt='AboutMePicture' />
+        <img className='rounded-md shadow-xl shadow-gray-400 dark:shadow-gray-600 dark:shadow-lg ' loading='lazy' src={aboutMePicture} alt='AboutMePicture' />
         </motion.div>
           </div>  
       </div>

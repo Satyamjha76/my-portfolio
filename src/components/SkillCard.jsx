@@ -8,6 +8,7 @@ const SkillCard = ({ items }) => {
         <img 
           src={items.image} 
           alt={items.name}
+          loading='lazy'
           className="w-24 h-24 object-contain filter drop-shadow-lg" 
         />
       </div>

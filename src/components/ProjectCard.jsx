@@ -28,6 +28,7 @@ const goBack = () => {
           
               <img
                 src={image}
+                loading='lazy'
                 alt={`Slide ${index + 1}`}
                 className="w-full h-64 object-contain rounded-lg"
               />

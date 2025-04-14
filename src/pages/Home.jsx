@@ -67,6 +67,7 @@ function Home() {
   { /*eslint-disable-next-line */}
   <img
     src={ProfileImage}
+    loading='lazy'
     alt="Your photo"
     className="absolute w-[371px] ml-7  mt-[4.7rem] rounded-[15rem]  "
   />
