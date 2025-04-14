@@ -29,11 +29,11 @@ function NotFound() {
           <div className="absolute inset-0 bg-blue-500 dark:bg-blue-600 blur-3xl opacity-20 rounded-full -z-0"></div>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-700 dark:text-gray-200 mb-4">
+        <h2 className="text-2xl font-bold font-sans text-gray-700 dark:text-gray-200 mb-4">
           Oops! Page Not Found
         </h2>
         
-        <p className="text-gray-600 dark:text-gray-300 mb-8">
+        <p className="text-gray-600 font-sans dark:text-gray-300 mb-8">
           The page you're looking for doesn't exist or has been moved.
         </p>
 
@@ -43,7 +43,7 @@ function NotFound() {
         >
           <Link 
             to="/"
-            className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md transition-all duration-300"
+            className="inline-block px-6 py-3 font-sans bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-semibold rounded-lg shadow-md transition-all duration-300"
           >
             Return Home
           </Link>

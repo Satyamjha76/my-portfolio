@@ -1,5 +1,5 @@
 
-import {Routes,Route,Outlet} from 'react-router-dom';
+import {Routes,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
@@ -8,9 +8,12 @@ import Skills from './pages/Skills';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+
 function App() {
+
   return (
     <div className="App">
+      
       <Navbar/>
        <Routes>
         <Route path='/' element={<Home/>} errorElement={<NotFound/>}/>
@@ -18,6 +21,8 @@ function App() {
         <Route path='/Skills' element={<Skills/>} errorElement={<NotFound/>}/>
         <Route path='/About' element={<About/>} errorElement={<NotFound/>}/>
         <Route path='/Contact' element={<Contact/>} errorElement={<NotFound/>}/>
+        <Route path="*" element={<NotFound />} />
+        
        </Routes>
        <hr className='dark:bg-gray-900'/>
        <Footer/>
