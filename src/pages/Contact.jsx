@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import siteConfig from'../config/siteConfig'
 
 function Contact() {
-  const email = "satyamjhastudy@gmail.com"; 
+  const email = "jha.satyam1976@gmail.com"; 
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
