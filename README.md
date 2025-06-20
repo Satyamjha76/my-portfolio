@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🚀 Satyam Jha — Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official GitHub repository for my personal developer portfolio.  
+I’m **Satyam Jha**, an Android and Web Developer from India. This site is a showcase of my skills, projects, and journey in the world of software development.
 
-## Available Scripts
+🌐 **Live Site:** [https://satyamjha.live](https://satyamjha.live)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 👨‍💻 About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I’m currently focused on building Android apps using **Kotlin**, **Jetpack Compose**, **Firebase**, **XML**, and **MVVM**.  
+I also create responsive and clean websites using **HTML**, **CSS**, **React.js**, and **JavaScript**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio is a living document of my growth as a developer — powered by real work, self-learning, and a love for creating clean, functional interfaces.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### 📱 Android Development
+- Kotlin, Java
+- MVVM Architecture
+- Jetpack Compose
+- Retrofit, Firebase, Room
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌐 Web Development
+- HTML5, CSS3, JavaScript
+- React.js
+- Tailwind CSS (for styling)
+- Vercel for deployment
+- GoDaddy for domain name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Projects Showcased
 
-### `npm run eject`
+- **🧾 SalesSahayak** — A CRM-like website built using ASP.NET (Web Forms), C#, HTML, CSS, and Access Database to help small  
+  businesses manage enquiries, orders, payments, and client data more efficiently, replacing messy Excel tracking.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **🕹️ GameVerse** — A desktop-based game platform developed using Python, Tkinter, and Pygame, offering a unified interface  
+  for casual gaming and learning through interactive Python-based games.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **💼📱 JointerX** — A job-finding and posting platform built using Android (Kotlin), MVVM architecture, LiveData, Firebase,  
+  Firestore, Hilt, Retrofit, and Cloudinary for a seamless and scalable mobile experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **🌐 This Portfolio Website** — Built with React.js, Tailwind CSS, and JavaScript. Deployed on Vercel.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Visit the [Projects](https://satyamjha.live/projects) section on my live site to explore them.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Add screenshots of your site here (optional)_
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📫 Contact & Connect
 
-### Analyzing the Bundle Size
+**Feel free to reach out — I’m open to collaborations, freelance work, or just a friendly chat!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **📧 Email**: jha.satyam1976@gmail.com  
+- **🔗 LinkedIn**: [linkedin.com/in/satyam-jha-78304b164](https://www.linkedin.com/in/satyam-jha-18s21d24sh/)  
+- **🐙 GitHub**: [github.com/Satyamjha76](https://github.com/Satyamjha76)  
+- **💻 LeetCode**: [leetcode.com/u/Satyamjha1976](https://leetcode.com/u/Satyamjha1976)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](./LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> ⚠️ **Important:**  
+> Credit to the original author — **Satyam Jha** — must be clearly mentioned in any public use of this software, including but not limited to:
+> - Website footers, About pages, or documentation  
+> - GitHub forks, clones, or live deployments
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ⚙️ How to Run This Website Locally
 
-### `npm run build` fails to minify
+```bash
+# Clone the repository
+git clone https://github.com/SatyamkrJha85/portfolio.git
+cd portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Open the site
+open index.html  # or use Live Server in VS Code
