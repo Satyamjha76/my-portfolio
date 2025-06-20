@@ -52,7 +52,20 @@ Visit the [Projects](https://satyamjha.live/projects) section on my live site to
 
 ## 📸 Screenshots
 
-_Add screenshots of your site here (optional)_
+### 🏠 Homepage  
+![Homepage](assets/Screenshots/Home.png)
+
+### 🧩 Projects Section  
+![Projects](assets/Screenshots/Projects.png)
+
+### 🧠 Skills Section  
+![Skills](assets/Screenshots/Skills.png)
+
+### 🙋‍♂️ About Me Section  
+![About Me](assets/Screenshots/About.png)
+
+### 📬 Contact Section  
+![Contact](assets/Screenshots/Contact.png)
 
 ---
 
