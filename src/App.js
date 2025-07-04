@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import JointerXPrivacyPolicy from './pages/JointerX/PrivacyPolicy';
+import JointerXTermsAndConditions from './pages/JointerX/TermsandCondition';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/About' element={<About/>} errorElement={<NotFound/>}/>
         <Route path='/Contact' element={<Contact/>} errorElement={<NotFound/>}/>
         <Route path='/JointerX/PrivacyPolicy' element={<JointerXPrivacyPolicy/>} errorElement={<NotFound/>}/>
+        <Route path='/JointerX/TermsandConditions' element={<JointerXTermsAndConditions/>} errorElement={<NotFound/>}/>
         <Route path="*" element={<NotFound />} />
         
        </Routes>

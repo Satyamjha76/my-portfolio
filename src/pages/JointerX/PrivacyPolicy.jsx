@@ -2,13 +2,14 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen w-full bg-white text-gray-800 dark:bg-gray-800 dark:text-white">
+    <div className="min-h-screen w-full bg-white text-gray-800 dark:bg-gray-800 dark:text-white pb-10 pt-10">
       {" "}
       <div className="p-6 md:p-10 max-w-4xl mx-auto">
         {" "}
         <h1 className="text-3xl text-center font-bold mb-10">
-          Privacy Policy for JointerX
-        </h1>{" "}
+          Privacy Policy
+        </h1>{" "}  
+        <h2 className="text-2xl text-center font-semibold mb-4">JointerX</h2>{" "}
         <p className="mb-6 font-medium">Effective Date: July 5, 2025</p>
         <p className="mb-4">
           Welcome to <strong>JointerX</strong> (“we,” “our,” “us”). We are
