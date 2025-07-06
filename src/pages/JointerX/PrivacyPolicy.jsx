@@ -162,8 +162,37 @@ export default function PrivacyPolicy() {
         <p>
           If you have questions about this Privacy Policy, reach out to us at:
         </p>
-        <p className="mt-2">Email: jha.satyam1976@gmail.com</p>
-        <p>Phone: 9712932934</p>
+        <p className="mt-2">Email: jointerx.contact@gmail.com</p>
+          <h2 className="text-2xl font-semibold mt-6 mb-2">10. Request Account Deletion</h2>
+        <p className="mb-4">
+          If you wish to delete your account and all associated data from our servers,
+          you can do so by submitting a request through the link below. We will process
+          your request within 72 hours.
+        </p>
+        <p className="mb-4">
+          Visit:{" "}
+          <a
+            href="https://satyamjha.live/JointerX/AccountDeletion"
+            className="text-blue-500 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Account Deletion Page
+          </a>
+        </p>
+        <p className="mb-4">
+          Alternatively, you may email us directly at{" "}
+          <a
+            href="mailto:jointerx.contact@gmail.com?subject=Account Deletion Request - JointerX&body=Please delete my account associated with this email: [your email here]."
+            className="text-blue-500 underline"
+          >
+           jointerx.contact@gmail.com
+          </a>{" "}
+          with the subject <strong>“Account Deletion Request - JointerX”</strong>.
+        </p>
+        <p className="mt-4 italic">
+  <strong>Note:</strong> Account deletion or data-related requests must be sent from the email address registered with your JointerX account. This is required to verify ownership and protect your data.
+</p>
       </div>
     </div>
   );
