@@ -53,6 +53,16 @@ import jxEmployerCandidateDetails from "../assets/project_JointerX/jxEmployerCan
 import jxEmployerLogin from "../assets/project_JointerX/jxEmployerLogin.jpg";
 import jxEmployerSignup from "../assets/project_JointerX/jxEmployerSignup.jpg";
 
+//JointerX PlayStore ScreenShots
+import MobileWelcome from "../assets/project_JointerX/ScreenShotsPlayStore/MobileWelcome.png"
+import MobileCandidatesJobs from "../assets/project_JointerX/ScreenShotsPlayStore/MobileCandidatesJobs.png"
+import MobileJobDetails from "../assets/project_JointerX/ScreenShotsPlayStore/MobileJobDetails.png"
+import MobileManageInterviewDetails from "../assets/project_JointerX/ScreenShotsPlayStore/MobileManageInterviewDetails.png"
+import MobileShortlistedCandidates from "../assets/project_JointerX/ScreenShotsPlayStore/MobileShortlistedCandidates.png"
+import MobileAddJobPost from "../assets/project_JointerX/ScreenShotsPlayStore/MobileAddJobPost.png"
+import MobileCandidateHome from "../assets/project_JointerX/ScreenShotsPlayStore/MobileCandidateHome.png"
+import MobileEmployerHome from "../assets/project_JointerX/ScreenShotsPlayStore/MobileEmployerHome.png"
+
 
 const projects = [
   {
@@ -72,30 +82,40 @@ const projects = [
       "Android Kotlin, MVVM, LiveData, Firebase, FirebaseStore, Hilt, Retrofit, Cloudinary",
     status: "[InProgress] Almost Complete",
     images: [
-      jxWelcome,
-      jxCandidateHome,
-      jxCandidateLogin,
-      jxCandidateSignup,
-      jxCandidateJobs,
-      jxCandidateApplications,
-      jxCandidateJobDetails,
-      jxCandidateProfile,
-      jxCandidateSettings,
-      jxChangePassword,
-      jxResetPassword,
-      jxEmployerHome,
-      jxEmployerJobs,
-      jxEmployerShortlistedCandidates,
-      jxEmployerSettings,
-      jxEmployerProfile,
-      jxEmployerCompanyProfile,
-      jxEmployerJobDetails,
-      jxEmployerManageInterviews,
-      jxEmployerApplicants,
-      jxEmployerPostJobs,
-      jxEmployerCandidateDetails,
-      jxEmployerLogin,
-      jxEmployerSignup,
+      // jxWelcome,
+      // jxCandidateHome,
+      // jxCandidateLogin,
+      // jxCandidateSignup,
+      // jxCandidateJobs,
+      // jxCandidateApplications,
+      // jxCandidateJobDetails,
+      // jxCandidateProfile,
+      // jxCandidateSettings,
+      // jxChangePassword,
+      // jxResetPassword,
+      // jxEmployerHome,
+      // jxEmployerJobs,
+      // jxEmployerShortlistedCandidates,
+      // jxEmployerSettings,
+      // jxEmployerProfile,
+      // jxEmployerCompanyProfile,
+      // jxEmployerJobDetails,
+      // jxEmployerManageInterviews,
+      // jxEmployerApplicants,
+      // jxEmployerPostJobs,
+      // jxEmployerCandidateDetails,
+      // jxEmployerLogin,
+      // jxEmployerSignup,
+        
+        MobileWelcome,
+        MobileCandidatesJobs,
+        MobileJobDetails,
+        MobileManageInterviewDetails,
+        MobileShortlistedCandidates,
+        MobileAddJobPost,
+        MobileCandidateHome,
+        MobileEmployerHome      
+    
     ],
   },
   {
@@ -153,7 +173,8 @@ const projects = [
       gvMurderMystry,
       gvtictactoe,
       gvprofile,
-    ],
+    ]
+   
   },
   
 ];
