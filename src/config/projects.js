@@ -80,7 +80,7 @@ const projects = [
                     truly matters in hiring.`,
     basedon:
       "Android Kotlin, MVVM, LiveData, Firebase, FirebaseStore, Hilt, Retrofit, Cloudinary",
-    status: "[InProgress] Almost Complete",
+    status: "In Closed Testing Phase- Play Store",
     images: [
       // jxWelcome,
       // jxCandidateHome,
