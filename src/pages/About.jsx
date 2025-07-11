@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 function About() {
   return (
-    <div className=' min-h-screen dark:bg-gray-800'>
+    <div className=' min-h-screen bg-gradient-to-br dark:from-gray-800 dark:to-gray-900'>
       <div className='flex pt-[5.2rem] pb-[5.2rem]'>
       <motion.div
       initial={{opacity:0}}

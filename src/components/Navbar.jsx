@@ -28,8 +28,8 @@ function Navbar() {
   return (
     <nav className=" w-full bg-white shadow-md shadow-gray-200 dark:bg-gray-900 dark:shadow-lg dark:shadow-gray-800 ">
       <div className="flex flex-row h-14 items-center">
-        <div className="basis-3/4  ml-16 md:ml-24 lg:ml-24 xl-ml-26 xl:mr-6 lg:mr-6 md:mr-4 sm:mr-2 font-bold font-sans text-gray-800 dark:text-white">
-         <NavLink to="/"className="">Satyam.</NavLink> 
+        <div className="basis-3/4 text-xl ml-16 md:ml-24 lg:ml-24 xl-ml-26 xl:mr-6 lg:mr-6 md:mr-4 sm:mr-2 font-bold font-sans text-gray-800 dark:text-white">
+         <NavLink to="/"className="">Satyam<span className=' text-blue-600'>.</span></NavLink> 
         </div>
         <div className="basis-1/4 ml-50 mr-10 font-bold font-sans  space-x-4 xl:space-x-12 xl:flex lg:space-x-11 lg:flex text-gray-800 dark:text-white md:space-x-6 md:flex sm:space-x-4 sm:flex sm:mr-10 md:ml-50 hidden">
           <NavLink
@@ -71,7 +71,7 @@ function Navbar() {
           </button>
         </div>
         <button 
-          className="sm:hidden md:hidden lg:hidden mx-auto p-1 text-gray-800 dark:text-white "
+          className="sm:hidden md:hidden lg:hidden mx-auto p-6 text-gray-800 dark:text-white "
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (

@@ -11,12 +11,12 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-900 flex flex-col justify-center items-center px-4">
+    <div className="min-h-screen bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 flex flex-col justify-center items-center px-4">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-md w-full bg-white dark:bg-gray-700 rounded-xl shadow-lg p-8 text-center"
+        className="max-w-md w-full bg-[#f1f1f1] dark:bg-gray-700 rounded-xl shadow-lg p-8 text-center"
       >
         <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">Let's Connect</h1>
         <p className="text-gray-600 dark:text-gray-300 mb-8">

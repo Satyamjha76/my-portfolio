@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen w-full bg-white text-gray-800 dark:bg-gray-800 dark:text-white pb-10 pt-10">
+    <div className="min-h-screen w-full bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
       {" "}
       <div className="p-6 md:p-10 max-w-4xl mx-auto">
         {" "}

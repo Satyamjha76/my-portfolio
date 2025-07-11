@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 function Home() {
   return (
     
-    <div className="flex min-h-screen px-2 dark:bg-gray-800">
+    <div className="flex min-h-screen px-2 bg-gradient-to-br dark:from-gray-800 dark:to-gray-900">
       <div className="flex flex-col items-center basis-full  lg:basis-2/3 xl:basis-2/3  ">
         <motion.div
         initial={{opacity:0,y:0}}
@@ -24,7 +24,7 @@ function Home() {
                   
                     <span className='block lg:w-[520px] xl:w-[520px] md:w-[370px] sm:w-[310px] w-[245px]'>
                 <Typewriter
-            words={['a Web Developer', 'a Android Developer']}
+            words={['a Web Developer', 'a Android Developer','a Author']}
             loop={0} // 0 = infinite
             cursor
             cursorStyle="|"
