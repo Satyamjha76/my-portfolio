@@ -4,9 +4,16 @@ import { Typewriter } from "react-simple-typewriter";
 import ProfileImage from "../assets/ProfileImage.png";
 import { motion } from "framer-motion";
 import myJourney from "../config/myJourney";
+import useMeta from "../hooks/useMeta";
 
 function Home() {
+   useMeta({
+    title: "Satyam Jha | Portfolio",
+    description: "Welcome to the personal portfolio of Satyam Jha — Android, Spring Boot & Web Developer. Explore projects, skills, and journey.",
+    keywords: "Satyam Jha, Android Developer, Spring Boot Developer, Web Developer, Portfolio, Firebase, Kotlin, React, Android"
+  });
   return (
+
     <div className="bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-20">
       <div className="flex h-auto lg:min-h-screen xl:min-h-screen sm:h-auto md:h-auto px-2 ">
         <div className="flex flex-col items-center basis-full  lg:basis-2/3 xl:basis-2/3  ">

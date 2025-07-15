@@ -2,9 +2,16 @@ import React from 'react';
 import skills from '../config/skills';
 import SkillCard from '../components/SkillCard';
 import { motion } from 'framer-motion';
+import useMeta from "../hooks/useMeta";
 
 function Skills() {
+  useMeta({
+    title: "Skills | Satyam Jha",
+    description: "Discover the technical skills of Satyam Jha, including Android development, Kotlin, Firebase, Spring Boot, React, and more.",
+    keywords: "Satyam Jha skills, Android developer, Kotlin, Spring Boot, Firebase, React, software development"
+  });
   return (
+  
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8  bg-gradient-to-br dark:from-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto">
         <motion.div
@@ -32,6 +39,7 @@ function Skills() {
         </motion.div>
       </div>
     </div>
+    
   );
 }
 

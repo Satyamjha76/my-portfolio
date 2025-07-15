@@ -1,8 +1,15 @@
 import React from "react";
+import useMeta from "../../hooks/useMeta";
 
 export default function PrivacyPolicy() {
+useMeta({
+  title: "Privacy Policy | JointerX",
+  description: "Learn how JointerX collects, uses, and protects your data. Read our privacy practices for candidates and employers.",
+  keywords: "JointerX Privacy Policy, data protection, user privacy, account deletion, Firebase, Cloudinary, Android app privacy"
+});
+
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
+    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
       {" "}
       <div className="p-6 md:p-10 max-w-4xl mx-auto">
         {" "}

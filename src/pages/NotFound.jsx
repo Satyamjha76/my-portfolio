@@ -1,8 +1,16 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import useMeta from "../hooks/useMeta";
+
 
 function NotFound() {
+  useMeta({
+    title: "404 Not Found | Satyam Jha",
+    description: "The page you are looking for does not exist. Explore other sections of Satyam Jha's portfolio website.",
+    keywords: "404, Not Found, Satyam Jha Portfolio, Page Missing, Broken Link"
+  });
   return (
+  
     <div className="min-h-screen bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 flex flex-col items-center justify-center px-4 text-center">
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
@@ -54,6 +62,7 @@ function NotFound() {
         <div className="absolute bottom-1/3 right-1/4 w-24 h-24 bg-blue-300 dark:bg-blue-700 rounded-full opacity-15 blur-xl"></div>
       </motion.div>
     </div>
+    
   );
 }
 

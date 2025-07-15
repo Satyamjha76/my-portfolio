@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import siteConfig from'../config/siteConfig'
+import useMeta from "../hooks/useMeta";
+
 
 function Contact() {
   const email = "jha.satyam1976@gmail.com"; 
@@ -10,7 +12,13 @@ function Contact() {
     alert("Email copied to clipboard!");
   };
 
+   useMeta({
+    title: "Contact | Satyam Jha",
+    description: "Get in touch with Satyam Jha for collaborations, opportunities, or queries related to Android and Spring Boot development.",
+    keywords: "Contact Satyam Jha, get in touch, connect, Android developer, Spring Boot developer, hire developer"
+  });
   return (
+  
     <div className="min-h-screen bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 flex flex-col justify-center items-center px-4">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -62,6 +70,7 @@ function Contact() {
         </div>
       </motion.div>
     </div>
+  
   );
 }
 

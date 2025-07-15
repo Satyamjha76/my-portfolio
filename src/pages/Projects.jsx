@@ -2,8 +2,15 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import projects from '../config/projects'
 import { motion } from 'framer-motion';
+import useMeta from "../hooks/useMeta";
 function Projects() {
+  useMeta({
+    title: "Projects | Satyam Jha",
+    description: "Explore projects built by Satyam Jha using Android, Kotlin, Firebase, Spring Boot, and modern development tools.",
+    keywords: "Satyam Jha projects, Android apps, Spring Boot projects, Kotlin, Firebase, developer portfolio"
+  });
   return (
+
     <div className='min-h-screen bg-gradient-to-br dark:from-gray-800 dark:to-gray-900'>
     <div className='mx-5 sm:mx-16 md:mx-28 lg:mx-52 py-12'>
       <motion.div
@@ -27,6 +34,7 @@ function Projects() {
       </motion.div>
     </div>
           </div>
+      
   )
 }
 

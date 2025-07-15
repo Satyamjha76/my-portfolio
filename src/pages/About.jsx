@@ -1,9 +1,15 @@
 import React from 'react';
 import aboutMePicture from '../assets/aboutMePicture.jpg';
 import { motion } from 'framer-motion';
-
+import useMeta from "../hooks/useMeta";
 function About() {
+  useMeta({
+    title: "About | Satyam Jha",
+    description: "Learn more about Satyam Jha — a passionate Android and Spring Boot developer focused on building impactful software solutions.",
+    keywords: "About Satyam Jha, Android developer, Spring Boot developer, portfolio, software engineer background"
+  });
   return (
+
     <div className=' min-h-screen bg-gradient-to-br dark:from-gray-800 dark:to-gray-900'>
       <div className='flex pt-[5.2rem] pb-[5.2rem]'>
       <motion.div
@@ -52,6 +58,7 @@ function About() {
           </div>  
       </div>
     </div>
+   
   )
 }
 

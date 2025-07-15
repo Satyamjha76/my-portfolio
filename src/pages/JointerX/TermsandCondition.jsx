@@ -1,8 +1,14 @@
 import React from "react";
+import useMeta from "../../hooks/useMeta";
 
 export default function TermsAndConditions() {
+  useMeta({
+    title: "Terms and Conditions | JointerX",
+    description: "Read the official terms and conditions for using JointerX, including eligibility, user responsibilities, data privacy, and limitations of liability.",
+    keywords: "Terms and Conditions, JointerX Terms, Privacy Policy, User Agreement, Account Usage Rules"
+  });
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
+    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
       {" "}
       <div className="p-6 md:p-10 max-w-4xl mx-auto">
         {" "}

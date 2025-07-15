@@ -1,6 +1,12 @@
 import React, { useState } from "react";
+import useMeta from "../../hooks/useMeta";
 
 export default function AccountDeletionPage() {
+   useMeta({
+    title: "Account Deletion Request | JointerX",
+    description: "Submit a request to delete your JointerX account and personal data by filling out the form.",
+    keywords: "Account deletion, JointerX account removal, Delete user data, Data privacy, User request form"
+  });
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -52,7 +58,7 @@ ${name}`);
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
+    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
       <div className="p-6 md:p-10 max-w-4xl mx-auto">
         <h1 className="text-3xl text-center font-bold mb-10">Account Deletion Request</h1>
         <p className="mb-6 font-medium text-center">
