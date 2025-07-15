@@ -1,3 +1,4 @@
 # robots.txt for https://satyamjha.live
 User-agent: *
 Disallow:
+Sitemap: https://satyamjha.live/sitemap.xml
