@@ -8,8 +8,8 @@ import useMeta from "../hooks/useMeta";
 
 function Home() {
    useMeta({
-    title: "Satyam Jha | Portfolio",
-    description: "Welcome to the personal portfolio of Satyam Jha — Android, Spring Boot & Web Developer. Explore projects, skills, and journey.",
+    title: "Satyam Jha | Android Developer",
+    description: "Hi, I am Satyam Jha — an Android & Web Developer skilled in Kotlin, React, Firebase, and Spring Boot. Explore my projects, skills, and portfolio, or get in touch for collaborations",
     keywords: "Satyam Jha, Android Developer, Spring Boot Developer, Web Developer, Portfolio, Firebase, Kotlin, React, Android"
   });
   return (
