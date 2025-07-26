@@ -1,0 +1,41 @@
+{
+  "redirects": [
+    {
+      "source": "/Projects",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
+      "source": "/About",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/Skills",
+      "destination": "/skills",
+      "permanent": true
+    },
+    {
+      "source": "/Contact",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/JointerX/PrivacyPolicy",
+      "destination": "/jointerx/privacypolicy",
+      "permanent": true
+    }
+    ,
+    {
+      "source": "/JointerX/TermsandConditions",
+      "destination": "/jointerx/termsandconditions",
+      "permanent": true
+    }
+    ,
+    {
+      "source": "/JointerX/AccountDeletion",
+      "destination": "/jointerx/accountdeletion",
+      "permanent": true
+    }
+  ]
+}
