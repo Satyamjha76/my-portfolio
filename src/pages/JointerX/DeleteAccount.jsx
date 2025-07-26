@@ -1,13 +1,25 @@
 import React, { useState } from "react";
 import useMeta from "../../hooks/useMeta";
+import { useNavigate } from "react-router-dom";
 
 export default function AccountDeletionPage() {
+  const navigate = useNavigate();
    useMeta({
     title: "Account Deletion Request | JointerX",
     description: "Submit a request to delete your JointerX account and personal data by filling out the form.",
     keywords: "Account deletion, JointerX account removal, Delete user data, Data privacy, User request form",
     canonical: "https://satyamjha.live/jointerx/accountdeletion"
   });
+  const handleBack = () => {
+  const cameFromLink =
+    !document.referrer || !document.referrer.includes(window.location.host);
+
+  if (!cameFromLink && window.history.length > 1) {
+    navigate(-1); // Go back if user navigated from your site
+  } else {
+    navigate("/jointerx"); // Fallback if opened directly or no history
+  }
+};
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -59,8 +71,18 @@ ${name}`);
   };
 
   return (
-    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
-      <div className="p-6 md:p-10 max-w-4xl mx-auto">
+    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 ">
+       {/* Back Button */}
+      <div className="w-full max-w-6xl flex justify-start px-6 pt-6">
+        <button
+          onClick={handleBack}
+          className="flex items-center gap-2 px-4 py-1.5 text-white bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full shadow-md transition duration-300 ease-in-out"
+        >
+          <span className="text-xl">←</span>
+          <span className="font-semibold text-sm">Back</span>
+        </button>
+      </div>
+      <div className="p-6 md:p-10 max-w-4xl mx-auto pt-10">
         <h1 className="text-3xl text-center font-bold mb-10">Account Deletion Request</h1>
         <p className="mb-6 font-medium text-center">
           If you wish to delete your account from JointerX, please fill the form

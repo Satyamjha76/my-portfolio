@@ -30,6 +30,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+   <url>
+    <loc>https://satyamjha.live/jointerx</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
   <url>
     <loc>https://satyamjha.live/jointerx/termsandconditions</loc>
     <lastmod>2025-07-27</lastmod>

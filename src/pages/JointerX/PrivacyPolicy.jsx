@@ -1,17 +1,40 @@
 import React from "react";
 import useMeta from "../../hooks/useMeta";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function PrivacyPolicy() {
+  const navigate = useNavigate();
   useMeta({
     title: "Privacy Policy | JointerX",
     description: "Learn how JointerX collects, uses, and protects your data. Read our privacy practices for candidates and employers.",
     keywords: "JointerX Privacy Policy, data protection, user privacy, account deletion, Firebase, Cloudinary, Android app privacy"
    ,canonical: "https://satyamjha.live/jointerx/privacypolicy"
   });
+const handleBack = () => {
+  const cameFromLink =
+    !document.referrer || !document.referrer.includes(window.location.host);
+
+  if (!cameFromLink && window.history.length > 1) {
+    navigate(-1); // Go back if user navigated from your site
+  } else {
+    navigate("/jointerx"); // Fallback if opened directly or no history
+  }
+};
+
 
   return (
-    <div className="min-h-screen w-full text-gray-800 dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
-      <div className="p-6 md:p-10 max-w-4xl mx-auto">
+    <div className="min-h-screen w-full text-gray-800 dark:text-white bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 pb-10">
+      {/* Back Button */}
+      <div className="w-full max-w-6xl flex justify-start px-6 pt-6">
+        <button
+          onClick={handleBack}
+          className="flex items-center gap-2 px-4 py-1.5 text-white bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full shadow-md transition duration-300 ease-in-out"
+        >
+          <span className="text-xl">←</span>
+          <span className="font-semibold text-sm">Back</span>
+        </button>
+      </div>
+      <div className="p-6 md:p-10 max-w-4xl mx-auto pt-10">
         <h1 className="text-3xl text-center font-bold mb-10">Privacy Policy</h1>
         <h2 className="text-2xl text-center font-semibold mb-4">JointerX</h2>
         <p className="mb-6 font-medium">Effective Date: July 5, 2025</p>
@@ -205,14 +228,14 @@ export default function PrivacyPolicy() {
         </p>
         <p className="mb-4">
           Visit:{" "}
-          <a
-            href="https://satyamjha.live/jointerx/accountdeletion"
+          <Link
+            to="/jointerx/accountdeletion"
             className="text-blue-500 underline"
-            target="_blank"
-            rel="noopener noreferrer"
+          onClick={()=>window.scrollTo(0,0)}
+            state={{from:"/jointerx/privacypolicy"}}
           >
             Account Deletion Page
-          </a>
+          </Link>
         </p>
         <p className="mb-4">
           Alternatively, you may email us directly at{" "}

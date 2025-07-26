@@ -1,17 +1,44 @@
 import React from "react";
 import useMeta from "../../hooks/useMeta";
 
+import { useNavigate,Link } from "react-router-dom";
+
 export default function TermsAndConditions() {
+   const navigate = useNavigate();
   useMeta({
     title: "Terms and Conditions | JointerX",
     description: "Read the official terms and conditions for using JointerX, including eligibility, user responsibilities, data privacy, and limitations of liability.",
     keywords: "Terms and Conditions, JointerX Terms, Privacy Policy, User Agreement, Account Usage Rules"
    ,canonical: "https://satyamjha.live/jointerx/termsandconditions"
   });
+  
+ const handleBack = () => {
+  const cameFromLink =
+    !document.referrer || !document.referrer.includes(window.location.host);
+
+  if (!cameFromLink && window.history.length > 1) {
+    navigate(-1); // Go back if user navigated from your site
+  } else {
+    navigate("/jointerx"); // Fallback if opened directly or no history
+  }
+};
+
+
+
   return (
-    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
+    <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 pb-10">
+       {/* Back Button */}
+      <div className="w-full max-w-6xl flex justify-start px-6 pt-6">
+        <button
+          onClick={handleBack}
+          className="flex items-center gap-2 px-4 py-1.5 text-white bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full shadow-md transition duration-300 ease-in-out"
+        >
+          <span className="text-xl">←</span>
+          <span className="font-semibold text-sm">Back</span>
+        </button>
+      </div>
       {" "}
-      <div className="p-6 md:p-10 max-w-4xl mx-auto">
+      <div className="p-6 md:p-10 max-w-4xl mx-auto pt-10">
         {" "}
         <h1 className="text-3xl text-center font-bold mb-10">
           Terms and Conditions
@@ -114,14 +141,13 @@ export default function TermsAndConditions() {
         <h2 className="text-2xl font-semibold mt-6 mb-2">8. Privacy</h2>
         <p className="mb-4">
           Your use of the App is also governed by our{" "}
-          <a
-            href="https://satyamjha.live/jointerx/privacypolicy"
+          <Link
+            to="/jointerx/privacypolicy"
             className="underline text-blue-400"
-            target="_blank"
-            rel="noopener noreferrer"
+            state={{from:"/jointerx/termsandconditions"}}
           >
             Privacy Policy
-          </a>
+          </Link>
           . By using the App, you consent to the collection and use of
           information as described therein.
         </p>

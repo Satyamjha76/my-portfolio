@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import JointerXPrivacyPolicy from './pages/JointerX/PrivacyPolicy';
 import JointerXTermsAndConditions from './pages/JointerX/TermsandCondition';
 import JointerXAccountDeletion from './pages/JointerX/DeleteAccount';
+import JointerXHome from './pages/JointerX/JointerXHome';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/skills' element={<Skills/>} errorElement={<NotFound/>}/>
         <Route path='/about' element={<About/>} errorElement={<NotFound/>}/>
         <Route path='/contact' element={<Contact/>} errorElement={<NotFound/>}/>
+        <Route path='/jointerx' element={<JointerXHome/>} errorElement={<NotFound/>}/>
         <Route path='/jointerx/privacypolicy' element={<JointerXPrivacyPolicy/>} errorElement={<NotFound/>}/>
         <Route path='/jointerx/termsandconditions' element={<JointerXTermsAndConditions/>} errorElement={<NotFound/>}/>
         <Route path='/jointerx/accountdeletion' element={<JointerXAccountDeletion/>} errorElement={<NotFound/>}/>

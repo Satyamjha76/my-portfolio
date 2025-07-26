@@ -80,7 +80,13 @@ const projects = [
                     truly matters in hiring.`,
     basedon:
       "Android Kotlin, MVVM, LiveData, Firebase, FirebaseStore, Hilt, Retrofit, Cloudinary",
-    status: "In Closed Testing Phase- Play Store",
+    status: "Live on Play Store",
+    detailsLink:"/jointerx",
+     hasDetails:true,
+    isLive:true,
+    isCompleted:false,
+    isInProgress:false,
+    liveLink:"https://play.google.com/store/apps/details?id=com.jointerx.app",
     images: [
       // jxWelcome,
       // jxCandidateHome,
@@ -134,7 +140,12 @@ const projects = [
           to the owner of the company with his/her special login account. 
             In this way, our website will help businesses to streamline their sales department.`,
     basedon: "Asp.net(Webforms), C#, HTML, CSS",
-    status: "Completed",
+    status: "Project Completed",
+    detailsLink:"#",
+    hasDetails:false,
+    isLive:false,
+    isCompleted:true,
+    isInProgress:false,
     images: [
       sswelcomePage,
       ssloginPage,
@@ -162,7 +173,12 @@ const projects = [
                     GameVerse also serves as a learning tool to help beginners understand Python programming through game 
                     development.`,
     basedon: "Python, Tkinter(Python Library), Pygame(Python Library)",
-    status: "Completed",
+    status: "Project Completed",
+    detailsLink:"#",
+    hasDetails:false,
+    isLive:false,
+    isCompleted:true,
+    isInProgress:false,
     images: [
       gvHomepage,
       gvLoginpage,
