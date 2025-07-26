@@ -8,6 +8,7 @@ function Projects() {
     title: "Projects | Satyam Jha",
     description: "Explore projects built by Satyam Jha using Android, Kotlin, Firebase, Spring Boot, and modern development tools.",
     keywords: "Satyam Jha projects, Android apps, Spring Boot projects, Kotlin, Firebase, developer portfolio"
+  ,canonical: "https://satyamjha.live/projects"
   });
   return (
 

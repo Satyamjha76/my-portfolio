@@ -6,6 +6,7 @@ export default function TermsAndConditions() {
     title: "Terms and Conditions | JointerX",
     description: "Read the official terms and conditions for using JointerX, including eligibility, user responsibilities, data privacy, and limitations of liability.",
     keywords: "Terms and Conditions, JointerX Terms, Privacy Policy, User Agreement, Account Usage Rules"
+   ,canonical: "https://satyamjha.live/jointerx/termsandconditions"
   });
   return (
     <div className="min-h-screen w-full text-gray-800  dark:text-white bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 pb-10 pt-10">
@@ -114,7 +115,7 @@ export default function TermsAndConditions() {
         <p className="mb-4">
           Your use of the App is also governed by our{" "}
           <a
-            href="https://satyamjha.live/JointerX/PrivacyPolicy"
+            href="https://satyamjha.live/jointerx/privacypolicy"
             className="underline text-blue-400"
             target="_blank"
             rel="noopener noreferrer"

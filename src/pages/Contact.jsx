@@ -16,6 +16,7 @@ function Contact() {
     title: "Contact | Satyam Jha",
     description: "Get in touch with Satyam Jha for collaborations, opportunities, or queries related to Android and Spring Boot development.",
     keywords: "Contact Satyam Jha, get in touch, connect, Android developer, Spring Boot developer, hire developer"
+    ,canonical: "https://satyamjha.live/contact"
   });
   return (
   

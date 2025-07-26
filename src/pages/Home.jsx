@@ -10,7 +10,8 @@ function Home() {
    useMeta({
     title: "Satyam Jha | Android Developer",
     description: "Hi, I am Satyam Jha — an Android & Web Developer skilled in Kotlin, React, Firebase, and Spring Boot. Explore my projects, skills, and portfolio, or get in touch for collaborations",
-    keywords: "Satyam Jha, Android Developer, Spring Boot Developer, Web Developer, Portfolio, Firebase, Kotlin, React, Android"
+    keywords: "Satyam Jha, Android Developer, Spring Boot Developer, Web Developer, Portfolio, Firebase, Kotlin, React, Android",
+    canonical: "https://satyamjha.live/"
   });
   return (
 

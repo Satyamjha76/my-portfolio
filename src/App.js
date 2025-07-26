@@ -20,13 +20,13 @@ function App() {
       <Navbar/>
        <Routes>
         <Route path='/' element={<Home/>} errorElement={<NotFound/>}/>
-        <Route path='/Projects' element={<Projects/>} errorElement={<NotFound/>}/>
-        <Route path='/Skills' element={<Skills/>} errorElement={<NotFound/>}/>
-        <Route path='/About' element={<About/>} errorElement={<NotFound/>}/>
-        <Route path='/Contact' element={<Contact/>} errorElement={<NotFound/>}/>
-        <Route path='/JointerX/PrivacyPolicy' element={<JointerXPrivacyPolicy/>} errorElement={<NotFound/>}/>
-        <Route path='/JointerX/TermsandConditions' element={<JointerXTermsAndConditions/>} errorElement={<NotFound/>}/>
-        <Route path='/JointerX/AccountDeletion' element={<JointerXAccountDeletion/>} errorElement={<NotFound/>}/>
+        <Route path='/projects' element={<Projects/>} errorElement={<NotFound/>}/>
+        <Route path='/skills' element={<Skills/>} errorElement={<NotFound/>}/>
+        <Route path='/about' element={<About/>} errorElement={<NotFound/>}/>
+        <Route path='/contact' element={<Contact/>} errorElement={<NotFound/>}/>
+        <Route path='/jointerx/privacypolicy' element={<JointerXPrivacyPolicy/>} errorElement={<NotFound/>}/>
+        <Route path='/jointerx/termsandconditions' element={<JointerXTermsAndConditions/>} errorElement={<NotFound/>}/>
+        <Route path='/jointerx/accountdeletion' element={<JointerXAccountDeletion/>} errorElement={<NotFound/>}/>
         <Route path="*" element={<NotFound />} />
         
        </Routes>

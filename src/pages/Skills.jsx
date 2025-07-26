@@ -9,6 +9,7 @@ function Skills() {
     title: "Skills | Satyam Jha",
     description: "Discover the technical skills of Satyam Jha, including Android development, Kotlin, Firebase, Spring Boot, React, and more.",
     keywords: "Satyam Jha skills, Android developer, Kotlin, Spring Boot, Firebase, React, software development"
+    ,canonical: "https://satyamjha.live/skills"
   });
   return (
   

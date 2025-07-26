@@ -5,7 +5,8 @@ export default function AccountDeletionPage() {
    useMeta({
     title: "Account Deletion Request | JointerX",
     description: "Submit a request to delete your JointerX account and personal data by filling out the form.",
-    keywords: "Account deletion, JointerX account removal, Delete user data, Data privacy, User request form"
+    keywords: "Account deletion, JointerX account removal, Delete user data, Data privacy, User request form",
+    canonical: "https://satyamjha.live/jointerx/accountdeletion"
   });
   const [form, setForm] = useState({
     name: "",

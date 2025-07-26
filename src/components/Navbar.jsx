@@ -39,25 +39,25 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/Projects"
+            to="/projects"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             Projects
           </NavLink>
           <NavLink
-            to="/Skills"
+            to="/skills"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             Skills
           </NavLink>
           <NavLink
-            to="/About"
+            to="/about"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             About
           </NavLink>
           <NavLink
-            to="/Contact"
+            to="/contact"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
           >
             Contact
@@ -106,28 +106,28 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/Projects"
+            to="/projects"
             className={({ isActive }) => (isActive ? activeLink : normalLink) + " block font-bold font-sans text-gray-800 dark:text-white py-2"}
             onClick={() => setMobileMenuOpen(false)}
           >
             Projects
           </NavLink>
           <NavLink
-            to="/Skills"
+            to="/skills"
             className={({ isActive }) => (isActive ? activeLink : normalLink) + " block font-bold font-sans text-gray-800 dark:text-white py-2"}
             onClick={() => setMobileMenuOpen(false)}
           >
             Skills
           </NavLink>
           <NavLink
-            to="/About"
+            to="/about"
             className={({ isActive }) => (isActive ? activeLink : normalLink) + " block font-bold font-sans text-gray-800 dark:text-white py-2"}
             onClick={() => setMobileMenuOpen(false)}
           >
             About
           </NavLink>
           <NavLink
-            to="/Contact"
+            to="/contact"
             className={({ isActive }) => (isActive ? activeLink : normalLink) + " block font-bold font-sans text-gray-800 dark:text-white py-2"}
             onClick={() => setMobileMenuOpen(false)}
           >

@@ -7,7 +7,8 @@ function NotFound() {
   useMeta({
     title: "404 Not Found | Satyam Jha",
     description: "The page you are looking for does not exist. Explore other sections of Satyam Jha's portfolio website.",
-    keywords: "404, Not Found, Satyam Jha Portfolio, Page Missing, Broken Link"
+    keywords: "404, Not Found, Satyam Jha Portfolio, Page Missing, Broken Link",
+    canonical: "https://satyamjha.live/"
   });
   return (
   

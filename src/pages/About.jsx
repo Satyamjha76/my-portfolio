@@ -7,6 +7,7 @@ function About() {
     title: "About | Satyam Jha",
     description: "Learn more about Satyam Jha — a passionate Android and Spring Boot developer focused on building impactful software solutions.",
     keywords: "About Satyam Jha, Android developer, Spring Boot developer, portfolio, software engineer background"
+    ,canonical: "https://satyamjha.live/about"
   });
   return (
 

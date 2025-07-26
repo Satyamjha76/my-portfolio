@@ -6,6 +6,7 @@ export default function PrivacyPolicy() {
     title: "Privacy Policy | JointerX",
     description: "Learn how JointerX collects, uses, and protects your data. Read our privacy practices for candidates and employers.",
     keywords: "JointerX Privacy Policy, data protection, user privacy, account deletion, Firebase, Cloudinary, Android app privacy"
+   ,canonical: "https://satyamjha.live/jointerx/privacypolicy"
   });
 
   return (
@@ -205,7 +206,7 @@ export default function PrivacyPolicy() {
         <p className="mb-4">
           Visit:{" "}
           <a
-            href="https://satyamjha.live/JointerX/AccountDeletion"
+            href="https://satyamjha.live/jointerx/accountdeletion"
             className="text-blue-500 underline"
             target="_blank"
             rel="noopener noreferrer"
