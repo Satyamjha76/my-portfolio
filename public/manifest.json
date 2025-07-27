@@ -1,24 +1,19 @@
 {
-  "short_name": "Satyam.",
+  "short_name": "Satyam",
   "name": "Satyam Jha | Android Developer",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#111827",
   "theme_color": "#111827",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "favicon96.ico",
-      "sizes": "96x96",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "favicon192.png",
+      "src": "/favicon192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "logo512.png",
+      "src": "/logo512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
